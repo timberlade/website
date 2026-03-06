@@ -1,0 +1,117 @@
+.hover {
+  background-color: rgb(197, 46, 99);
+  color: aliceblue;
+  font-size: x-large;
+  border: none;
+  border-radius: 50px;
+  animation: pulse 2s infinite;
+  transition: 0.5 ease;
+}
+.hover:hover{
+  transform: scale(2);
+}
+.card{
+    background: rgb(203, 219, 254);
+    border-color: rgb(91, 91, 186);
+    padding: 30px;
+    transition: all 6s ease-in-out;
+}
+.card:hover{
+ transform: scale(2);
+ background-color: rgb(128, 208, 235);
+}
+.text{
+ opacity: 0;
+ animation: appear 0.5s 1s forwards;   
+}
+
+@keyframes appear {
+    to {opacity: 100;}
+}
+header{
+    text-align: center;
+    background: rgb(227, 223, 212);
+    border: 1px;
+    border-color: aqua;
+    border-radius: 20px;
+    padding: 20px;
+    transition: all 6s ease-in-out;
+}
+header:hover{
+ transform: scale(1.5);
+ background-color: red;
+}
+.container {
+  width: 90%;      
+  max-width: 1200px; 
+  margin: 0 auto;
+  justify-content: center;
+  gap: 20px;
+  text-align: left;  
+}
+.pre{ 
+width: 90%;      
+  max-width: 1200px; 
+  margin: 0 auto;
+  justify-content: center;  
+}
+.cards1{
+    flex-wrap: wrap;
+    gap: 10px;
+    border-size: 10 px;
+    border-color: aqua;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(154, 219, 241);
+}
+.cards2{
+    flex-wrap: wrap;
+    gap: 10px;
+    border-color: aqua;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(154, 219, 241);
+}
+.cards3{
+    flex-wrap: wrap;
+    gap: 10px;
+    border-color: aqua;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(154, 219, 241);
+}
+.grid-container{
+    font-size: 20px;
+    display: flex;
+    border-color: aqua;
+    border-radius: 20px;
+}
+@media (max-width: 600px) {
+    .card {
+        flex: 3 3 100%;
+    }
+    }  
+h4 {
+ text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+p {
+ text-align: center;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer{
+    text-align: center;
+    background: rgb(255, 230, 167);
+    border: 1px;
+    border-color: aqua;
+    border-radius: 20px;
+    padding: 20px;
+    transition: all 6s ease-in-out;
+}
+footer:hover{
+ transform: scale(2);
+ background-color: red;
+}
